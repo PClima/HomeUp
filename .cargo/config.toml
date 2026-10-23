@@ -1,0 +1,6 @@
+[build]
+target-dir = "target"
+
+# Link the C runtime statically so the .exe does not need the VC++ redistributable.
+[target.x86_64-pc-windows-msvc]
+rustflags = ["-C", "target-feature=+crt-static"]

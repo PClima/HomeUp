@@ -1,0 +1,5 @@
+/target
+*.homeup
+*.obj
+third_party/sketchup-sdk/
+/dist
